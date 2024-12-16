@@ -1,4 +1,4 @@
-package br.com.SeguroBanco.service;
+package br.com.SeguroBanco.configuration;
 
 import br.com.CadastroBanco.model.Pessoa;
 import org.springframework.stereotype.Service;
