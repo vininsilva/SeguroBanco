@@ -5,11 +5,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
 @Service
-public class CadastroService {
+public class CadastroWebClient {
 
     private final WebClient webClient;
 
-    public CadastroService(WebClient.Builder webClientBuilder) {
+    public CadastroWebClient(WebClient.Builder webClientBuilder) {
         this.webClient = webClientBuilder.baseUrl("http://localhost:8080/api/cadastro").build();
     }
 
